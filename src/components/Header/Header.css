@@ -17,3 +17,25 @@
 .header a:hover{
     color: orange;
 }
+.btn-logout{
+    margin-left: 16px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn-logout:hover{
+    color: orange;
+}
+.user-info{
+    color: white;
+    font-size: 18px;
+}
+@media screen and (max-width:750px) {
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
